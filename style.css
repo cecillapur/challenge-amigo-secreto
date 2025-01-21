@@ -1,3 +1,4 @@
+/* Variables de color */
 :root {
   --color-primary: #4b69fd;
   --color-secondary: #fff9eb;
@@ -150,8 +151,8 @@ ul {
 .button-draw {
   display: flex;
   align-items: center;
-  width: 100%;
-  padding: 10px 40px;
+  width: auto;
+  padding: 10px 20px;
   color: var(--color-white);
   background-color: var(--color-button);
   font-size: 16px;
@@ -160,15 +161,15 @@ ul {
 .button-draw1 {
   display: flex;
   align-items: center;
-  width: 100%;
-  padding: 10px 40px;
+  width: auto;
+  padding: 10px 20px;
   color: var(--color-white);
   background-color: var(--color-button1);
   font-size: 16px;
 }
 
 .button-draw img {
-  margin-right: 40px;
+  margin-right: 9px;
 }
 
 .button-draw:hover {
@@ -191,4 +192,55 @@ ul {
 
 .button-remove:hover {
   background-color: #e60000;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 36px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .input-wrapper {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .input-name {
+    border-radius: 25px;
+    margin-bottom: 10px;
+  }
+
+  .button-add {
+    border-radius: 25px;
+  }
+
+  .button-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .button-draw,
+  .button-draw1 {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-title {
+    font-size: 28px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .button-draw,
+  .button-draw1 {
+    padding: 8px;
+  }
 }
