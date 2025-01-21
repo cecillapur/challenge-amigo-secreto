@@ -57,18 +57,18 @@ body {
 /* Títulos */
 .main-title {
   font-size: 48px;
-  font-family: "Merriweather", serif;
+  font-family: "Montserrat", serif;
   font-weight: 900;
   font-style: italic;
   color: var(--color-white);
 }
 
 .section-title {
-  font-family: "Inter", serif;
+  font-family: "Montserrat", serif;
   font-size: 36px;
   font-weight: 700;
   color: var(--color-primary);
-  margin: 10px 0;
+  margin: 20px 0;
   text-align: center;
 }
 
@@ -111,7 +111,7 @@ body {
 /* Estilos de botón */
 button {
   padding: 15px 30px;
-  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", serif;
   font-size: 16px;
   border: 2px solid #000;
   border-radius: 25px;
@@ -133,7 +133,7 @@ button {
 ul {
   list-style-type: none;
   color: var(--color-text);
-  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", serif;
   font-size: 18px;
   margin: 20px 0;
 }
