@@ -3,7 +3,9 @@
   --color-secondary: #fff9eb;
   --color-tertiary: #c4c4c4;
   --color-button: #fe652b;
+  --color-button1: #3764df;
   --color-button-hover: #e55720;
+  --color-button1-hover: #4b55bb;
   --color-text: #444444;
   --color-white: #ffffff;
 }
@@ -161,7 +163,7 @@ ul {
   width: 100%;
   padding: 10px 40px;
   color: var(--color-white);
-  background-color: #3764df;
+  background-color: var(--color-button1);
   font-size: 16px;
 }
 
@@ -174,7 +176,7 @@ ul {
 }
 
 .button-draw1:hover {
-  background-color: #4b55bb;
+  background-color: var(--color-button1-hover);
 }
 
 .button-remove {
