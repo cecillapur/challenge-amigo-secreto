@@ -88,8 +88,10 @@ body {
 }
 
 .button-container {
-  width: 300px;
+  display: flex;
   justify-content: center;
+  gap: 10px; /* Espacio entre los botones */
+  margin-top: 20px;
 }
 
 /* Estilos de entrada de texto */
@@ -153,12 +155,26 @@ ul {
   font-size: 16px;
 }
 
+.button-draw1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 40px;
+  color: var(--color-white);
+  background-color: #3764df;
+  font-size: 16px;
+}
+
 .button-draw img {
   margin-right: 40px;
 }
 
 .button-draw:hover {
   background-color: var(--color-button-hover);
+}
+
+.button-draw1:hover {
+  background-color: #4b55bb;
 }
 
 .button-remove {
